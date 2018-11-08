@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ComponentModuleA'
-s.version          = '1.0.2'
+s.version          = '1.0.3'
 s.summary          = '这是业务模块A 组件'
 
 # This description is used to generate tags and improve search results.
@@ -32,3 +32,4 @@ ss.dependency "ComponentModuleA/Controller"
 end
 
 end
+
