@@ -28,7 +28,7 @@ end
 
 s.subspec 'Target' do |ss|
 ss.source_files = "ComponentModuleA/Target/**/*.{h,m}"
-ss.dependency "ModuleA/Controller"
+ss.dependency "ComponentModuleA/Controller"
 end
 
 end
