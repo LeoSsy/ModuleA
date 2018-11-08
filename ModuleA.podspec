@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ModuleA'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = '这是业务模块A 组件'
 
 # This description is used to generate tags and improve search results.
@@ -15,7 +15,7 @@ DESC
 
 s.homepage         = 'https://github.com/LeoSsy'
 s.license          = "MIT"
-s.author           = { 'guangqiang' => '1126756952@qq.com' }
+s.author           = { 'jack' => '781739973@qq.com' }
 s.source           = { :git => 'https://github.com/LeoSsy/ModuleA.git', :tag => s.version.to_s }
 
 s.platform         = :ios, "8.0"
@@ -28,7 +28,7 @@ end
 
 s.subspec 'Target' do |ss|
 ss.source_files = "ModuleA/Target/**/*.{h,m}"
-ss.dependency "ModuleB/Controller"
+ss.dependency "ModuleA/Controller"
 end
 
 end
