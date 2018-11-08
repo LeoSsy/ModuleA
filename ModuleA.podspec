@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name             = 'ModuleA'
+s.name             = 'ComponentModuleA'
 s.version          = '1.0.1'
 s.summary          = '这是业务模块A 组件'
 
@@ -23,11 +23,11 @@ s.platform         = :ios, "8.0"
 s.requires_arc     = true
 
 s.subspec 'Controller' do |ss|
-ss.source_files = "ModuleA/Controller/**/*.{h,m}"
+ss.source_files = "ComponentModuleA/Controller/**/*.{h,m}"
 end
 
 s.subspec 'Target' do |ss|
-ss.source_files = "ModuleA/Target/**/*.{h,m}"
+ss.source_files = "ComponentModuleA/Target/**/*.{h,m}"
 ss.dependency "ModuleA/Controller"
 end
 
