@@ -6,10 +6,10 @@
 //  Copyright © 2018年 quangqiang. All rights reserved.
 //
 
-#import "Target_ModuleB.h"
+#import "Target_ModuleA.h"
 #import "ModuleBViewController.h"
 
-@implementation Target_ModuleB
+@implementation Target_ModuleA
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params {
     ModuleBViewController *VC = [[ModuleBViewController alloc] init];

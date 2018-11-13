@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface Target_ModuleB : NSObject
+@interface Target_ModuleA : NSObject
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params;
 

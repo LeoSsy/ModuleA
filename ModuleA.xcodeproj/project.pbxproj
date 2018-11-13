@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		043BF9442193D22300BBC6E4 /* ModuleATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BF9432193D22300BBC6E4 /* ModuleATests.m */; };
 		043BF94F2193D22300BBC6E4 /* ModuleAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BF94E2193D22300BBC6E4 /* ModuleAUITests.m */; };
-		043BFA8021943C3800BBC6E4 /* Target_ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA7021943C3800BBC6E4 /* Target_ModuleB.m */; };
+		043BFA8021943C3800BBC6E4 /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA7021943C3800BBC6E4 /* Target_ModuleA.m */; };
 		043BFA8121943C3800BBC6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BFA7121943C3800BBC6E4 /* Assets.xcassets */; };
 		043BFA8221943C3800BBC6E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA7221943C3800BBC6E4 /* ViewController.m */; };
 		043BFA8321943C3800BBC6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043BFA7321943C3800BBC6E4 /* LaunchScreen.storyboard */; };
@@ -47,8 +47,8 @@
 		043BF94E2193D22300BBC6E4 /* ModuleAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAUITests.m; sourceTree = "<group>"; };
 		043BF9502193D22300BBC6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043BFA6D21943C3800BBC6E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		043BFA6F21943C3800BBC6E4 /* Target_ModuleB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ModuleB.h; sourceTree = "<group>"; };
-		043BFA7021943C3800BBC6E4 /* Target_ModuleB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleB.m; sourceTree = "<group>"; };
+		043BFA6F21943C3800BBC6E4 /* Target_ModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
+		043BFA7021943C3800BBC6E4 /* Target_ModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
 		043BFA7121943C3800BBC6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043BFA7221943C3800BBC6E4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		043BFA7421943C3800BBC6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,17 +129,17 @@
 		043BFA6C21943C3800BBC6E4 /* ComponentModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				043BFA6D21943C3800BBC6E4 /* AppDelegate.h */,
 				043BFA6E21943C3800BBC6E4 /* Target */,
 				043BFA7121943C3800BBC6E4 /* Assets.xcassets */,
+				043BFA6D21943C3800BBC6E4 /* AppDelegate.h */,
+				043BFA7D21943C3800BBC6E4 /* AppDelegate.m */,
+				043BFA7F21943C3800BBC6E4 /* ViewController.h */,
 				043BFA7221943C3800BBC6E4 /* ViewController.m */,
 				043BFA7321943C3800BBC6E4 /* LaunchScreen.storyboard */,
 				043BFA7521943C3800BBC6E4 /* Main.storyboard */,
 				043BFA7721943C3800BBC6E4 /* Controller */,
 				043BFA7C21943C3800BBC6E4 /* main.m */,
-				043BFA7D21943C3800BBC6E4 /* AppDelegate.m */,
 				043BFA7E21943C3800BBC6E4 /* Info.plist */,
-				043BFA7F21943C3800BBC6E4 /* ViewController.h */,
 			);
 			path = ComponentModuleA;
 			sourceTree = "<group>";
@@ -147,8 +147,8 @@
 		043BFA6E21943C3800BBC6E4 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				043BFA6F21943C3800BBC6E4 /* Target_ModuleB.h */,
-				043BFA7021943C3800BBC6E4 /* Target_ModuleB.m */,
+				043BFA6F21943C3800BBC6E4 /* Target_ModuleA.h */,
+				043BFA7021943C3800BBC6E4 /* Target_ModuleA.m */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 				043BFA8821943C3800BBC6E4 /* AppDelegate.m in Sources */,
 				043BFA8521943C3800BBC6E4 /* ModuleBViewController.m in Sources */,
 				043BFA8621943C3800BBC6E4 /* PageBViewController.m in Sources */,
-				043BFA8021943C3800BBC6E4 /* Target_ModuleB.m in Sources */,
+				043BFA8021943C3800BBC6E4 /* Target_ModuleA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
