@@ -21,6 +21,7 @@ s.source           = { :git => 'https://github.com/LeoSsy/ModuleA.git', :tag => 
 s.platform         = :ios, "8.0"
 
 s.requires_arc     = true
+s.public_header_files = 'ComponentModuleA/Controller/ComponentModeleAHeader.h'
 
 s.subspec 'Controller' do |ss|
 ss.source_files = "ComponentModuleA/Controller/*.{h,m}"

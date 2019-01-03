@@ -61,6 +61,7 @@
 		043BFA7E21943C3800BBC6E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049525A121DE060E00700EEA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		049525A221DE060E00700EEA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049525A521DE3C0800700EEA /* ComponentModeleAHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentModeleAHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +161,7 @@
 				043BFA7921943C3800BBC6E4 /* PageAViewController.m */,
 				043BFA7A21943C3800BBC6E4 /* ModuleAViewController.h */,
 				043BFA7821943C3800BBC6E4 /* ModuleAViewController.m */,
+				049525A521DE3C0800700EEA /* ComponentModeleAHeader.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
