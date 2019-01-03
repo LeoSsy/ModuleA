@@ -18,7 +18,7 @@
 		043BFA8721943C3800BBC6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA7C21943C3800BBC6E4 /* main.m */; };
 		043BFA8821943C3800BBC6E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA7D21943C3800BBC6E4 /* AppDelegate.m */; };
 		049525A021DDFEC500700EEA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043BFA7E21943C3800BBC6E4 /* Info.plist */; };
-		049525A321DE060E00700EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049525A121DE060E00700EEA /* ViewController.m */; };
+		049525A421DE082B00700EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049525A121DE060E00700EEA /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049525A321DE060E00700EEA /* ViewController.m in Sources */,
+				049525A421DE082B00700EEA /* ViewController.m in Sources */,
 				043BFA8721943C3800BBC6E4 /* main.m in Sources */,
 				043BFA8821943C3800BBC6E4 /* AppDelegate.m in Sources */,
 				043BFA8521943C3800BBC6E4 /* ModuleAViewController.m in Sources */,
