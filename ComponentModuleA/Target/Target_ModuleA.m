@@ -7,12 +7,13 @@
 //
 
 #import "Target_ModuleA.h"
-#import "ModuleBViewController.h"
+#import "ViewController.h"
 
 @implementation Target_ModuleA
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params {
-    ModuleBViewController *VC = [[ModuleBViewController alloc] init];
+    ViewController *VC = [[ViewController alloc] init];
+    VC.image = [params objectForKey:@"image"];
     return VC;
 }
 

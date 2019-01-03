@@ -6,14 +6,14 @@
 //  Copyright © 2018年 quangqiang. All rights reserved.
 //
 
-#import "ModuleBViewController.h"
-#import "PageBViewController.h"
+#import "ModuleAViewController.h"
+#import "PageAViewController.h"
 
-@interface ModuleBViewController ()
+@interface ModuleAViewController ()
 
 @end
 
-@implementation ModuleBViewController
+@implementation ModuleAViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 300, 100);
-    btn.backgroundColor = [UIColor greenColor];
+    btn.backgroundColor = [UIColor lightGrayColor];
     btn.center = self.view.center;
     [btn setTitle:@"模块B业务功能组件" forState: UIControlStateNormal];
     [btn addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
@@ -32,7 +32,7 @@
 }
 
 - (void)push {
-    PageBViewController *VC = [[PageBViewController alloc] init];
+    PageAViewController *VC = [[PageAViewController alloc] init];
     [self.navigationController pushViewController:VC animated:YES];
 }
 

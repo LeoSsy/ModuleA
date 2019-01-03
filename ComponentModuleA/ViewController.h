@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
-
+/**
+ 接收到图片
+ */
+@property(nonatomic,strong)UIImage *image;
 @end
 

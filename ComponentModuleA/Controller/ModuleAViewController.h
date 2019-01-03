@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModuleBViewController : UIViewController
+@interface ModuleAViewController : UIViewController
 
 @end

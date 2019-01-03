@@ -6,13 +6,13 @@
 //  Copyright © 2018年 quangqiang. All rights reserved.
 //
 
-#import "PageBViewController.h"
+#import "PageAViewController.h"
 
-@interface PageBViewController ()
+@interface PageAViewController ()
 
 @end
 
-@implementation PageBViewController
+@implementation PageAViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
