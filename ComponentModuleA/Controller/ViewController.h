@@ -8,11 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+typedef void(^callback)(NSString *result);
+
+
+@interface ViewController : UIViewController
 /**
  接收到图片
  */
 @property(nonatomic,strong)UIImage *image;
+
+
+/**
+ 回调
+ */
+@property(nonatomic,copy)callback callback;
 @end
 

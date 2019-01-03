@@ -14,6 +14,7 @@
 - (UIViewController *)Action_viewController:(NSDictionary *)params {
     ViewController *VC = [[ViewController alloc] init];
     VC.image = [params objectForKey:@"image"];
+    VC.callback = [params objectForKey:@"callback"];
     return VC;
 }
 
