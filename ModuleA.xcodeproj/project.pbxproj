@@ -18,7 +18,7 @@
 		043BFA8721943C3800BBC6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA7C21943C3800BBC6E4 /* main.m */; };
 		043BFA8821943C3800BBC6E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA7D21943C3800BBC6E4 /* AppDelegate.m */; };
 		049525A021DDFEC500700EEA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043BFA7E21943C3800BBC6E4 /* Info.plist */; };
-		049525A421DE082B00700EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049525A121DE060E00700EEA /* ViewController.m */; };
+		049525A421DE082B00700EEA /* ModelA_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049525A121DE060E00700EEA /* ModelA_ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		043BFA7C21943C3800BBC6E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		043BFA7D21943C3800BBC6E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		043BFA7E21943C3800BBC6E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		049525A121DE060E00700EEA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		049525A221DE060E00700EEA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049525A121DE060E00700EEA /* ModelA_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelA_ViewController.m; sourceTree = "<group>"; };
+		049525A221DE060E00700EEA /* ModelA_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelA_ViewController.h; sourceTree = "<group>"; };
 		049525A521DE3C0800700EEA /* ComponentModeleAHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentModeleAHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,8 +155,8 @@
 		043BFA7721943C3800BBC6E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				049525A221DE060E00700EEA /* ViewController.h */,
-				049525A121DE060E00700EEA /* ViewController.m */,
+				049525A221DE060E00700EEA /* ModelA_ViewController.h */,
+				049525A121DE060E00700EEA /* ModelA_ViewController.m */,
 				043BFA7B21943C3800BBC6E4 /* PageAViewController.h */,
 				043BFA7921943C3800BBC6E4 /* PageAViewController.m */,
 				043BFA7A21943C3800BBC6E4 /* ModuleAViewController.h */,
@@ -300,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049525A421DE082B00700EEA /* ViewController.m in Sources */,
+				049525A421DE082B00700EEA /* ModelA_ViewController.m in Sources */,
 				043BFA8721943C3800BBC6E4 /* main.m in Sources */,
 				043BFA8821943C3800BBC6E4 /* AppDelegate.m in Sources */,
 				043BFA8521943C3800BBC6E4 /* ModuleAViewController.m in Sources */,

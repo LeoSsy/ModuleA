@@ -6,19 +6,20 @@
 //  Copyright © 2018年 bianla. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ModelA_ViewController.h"
 #import "PageAViewController.h"
 
-@interface ViewController ()
+@interface ModelA_ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ModelA_ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.title = @"我是模块A业务组件";
+    self.view.backgroundColor = [UIColor whiteColor];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 50, 220, 220)];
     imageView.image = self.image;

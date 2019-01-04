@@ -12,7 +12,7 @@
 typedef void(^callback)(NSString *result);
 
 
-@interface ViewController : UIViewController
+@interface ModelA_ViewController : UIViewController
 /**
  接收到图片
  */

@@ -8,5 +8,5 @@
 
 #ifndef ComponentModeleAHeader_h
 #define ComponentModeleAHeader_h
-#import "ViewController.h"
+#import "ModelA_ViewController.h"
 #endif /* ComponentModeleAHeader_h */
